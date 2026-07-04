@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.square > div {
+    height: 174px;
+    width: 174px;
+    display: inline-block;
+    margin-left: -3px;
+    margin-top: -3px;
+    /*position: relative;*/
+    /*position: absolute;*/
+/* с позишнс экспериментрировала    */
+/*у меня тут вопрос: как сделать чтобы при изменении размера экрана блоки двигались пропорционально размеру экрана
+есть ли какая-то "привязка?"*/
+}
+.div1 {
+    background-color: white;
+}
+.div2 {
+    background-color: black;
+}

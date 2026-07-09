@@ -1,0 +1,40 @@
+body {
+    background: #DFBEBEFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Green {
+    color: #20650e;
+}
+
+#p1 {
+    font-size: 50px;
+}
+
+.Big {
+    font-size: 50px;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    color: #38CD07FF;
+}
+
+#p1 + p {
+    font-weight: 900;
+}
+.container p {
+    border: 10px solid black;
+}
+
+.container > p {
+    border: 5px solid crimson;
+}
+
+.Big.Green {
+    background-color: goldenrod;
+}
